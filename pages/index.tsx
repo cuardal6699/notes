@@ -5,7 +5,7 @@ import { setFlagsFromString } from 'v8'
 import styles from '../styles/Home.module.css'
 import type { GetServerSideProps, NextPage } from 'next'
 import { useState } from 'react'
-import prisma from '../lib/prisma'
+import {prisma} from '../lib/prisma'
 import {useRouter} from 'next/router'
 
 interface Notes {
